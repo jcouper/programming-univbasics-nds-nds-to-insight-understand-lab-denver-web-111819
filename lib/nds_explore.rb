@@ -4,10 +4,10 @@ require 'directors_database'
 
 #pp directors_database
 
-def helper(arr)
-  arr.join(\n)
+#def helper(arr)
+ # arr.join(\n)
   
-end
+#end
 
 def pretty_print_nds(nds)
   # Change the code below to pretty print the nds with pp
