@@ -35,13 +35,13 @@ counter == 0
   
   
   while directors_database[0][:name][:movies].length > counter do 
-    push(directors_database[0][:name][:movies][counter])
-
+    final_arr.push(directors_database[0][:name][:movies][counter][:title])
+    counter =+ 1 
 
 end
   
   
-  
+  helper(final_arr)
   
   
   
