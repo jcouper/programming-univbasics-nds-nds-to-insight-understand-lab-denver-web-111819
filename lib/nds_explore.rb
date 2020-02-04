@@ -40,7 +40,7 @@ counter = 0
     puts "Hey!!"
     counter += 1 
 
-#end
+end
   
   
  final_arr
