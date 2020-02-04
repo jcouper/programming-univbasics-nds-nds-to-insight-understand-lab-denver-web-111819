@@ -31,7 +31,7 @@ counter == 0
   # access item in array
   #look for title key
   #push value in that key to final_arr
-  #call helper method on 8
+  #call helper method on final_arr
   
   
   while directors_database[0][:name][:movies].length > counter do 
@@ -41,7 +41,8 @@ counter == 0
 end
   
   
-  helper(final_arr)
+ final_arr
+ 
   
   
   
