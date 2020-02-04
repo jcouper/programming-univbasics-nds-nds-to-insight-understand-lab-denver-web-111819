@@ -14,10 +14,10 @@ end
 
 def print_first_directors_movie_titles
 
-#def helper(arr)
-#  arr.join(\n)
+def helper(arr)
+  arr.join(\n)
   
-#end
+end
 
 
 final_arr = []
@@ -37,7 +37,6 @@ counter = 0
   
   while counter < directors_database[0][:movies].length   do 
     final_arr.push(directors_database[0][:movies][counter][:title])
-    puts directors_database[0][:movies].length
     counter += 1 
 
 end
