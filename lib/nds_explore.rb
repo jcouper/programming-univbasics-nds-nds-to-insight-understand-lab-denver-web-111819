@@ -36,7 +36,7 @@ counter = 0
   
 #  while directors_database[0][:name][:movies].length > counter do 
  #   final_arr.push(directors_database[0][:name][:movies][counter][:title])
-#    puts final_arr.push(directors_database[0][:name][:movies][counter][:title]
+#    puts final_arr.push(directors_database[0][:name][:movies][counter][:title])
 #    counter += 1 
 
 #end
