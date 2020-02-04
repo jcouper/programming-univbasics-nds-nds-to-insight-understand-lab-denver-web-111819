@@ -43,6 +43,6 @@ counter = 0
 end
   
   
-puts final_arr.join
+puts final_arr.join('\n')
 
 end
