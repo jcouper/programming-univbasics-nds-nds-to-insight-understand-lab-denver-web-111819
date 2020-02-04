@@ -24,7 +24,7 @@ final_arr = []
 counter = 0 
 
 
-puts directors_database[0][:movies][:title]
+puts directors_database[0][:movies][0
   
   
   # initiate a counter
