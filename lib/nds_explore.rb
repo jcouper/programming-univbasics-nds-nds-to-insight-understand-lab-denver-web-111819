@@ -22,9 +22,9 @@ def print_first_directors_movie_titles
 
 final_arr = []
 counter = 0 
-verify_var = directors_database[0][:name][:movies][counter][:title]
 
-puts verify_var
+
+puts directors_database[0][:name][:movies][counter][:title]
   
   
   # initiate a counter
