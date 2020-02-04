@@ -17,7 +17,10 @@ def print_first_directors_movie_titles
 def helper(arr)
   arr.join(\n)
   
-  end
+end
+
+
+final_arr = []
 
   
   directors_database[0][:name][:movies][0][:title]
@@ -27,7 +30,8 @@ def helper(arr)
   # while length of the movies array in spelljaskf is larger than counter do the following...
   # access item in array
   #look for title key
-  #print value in that key 
+  #push value in that key to final_arr
+  #call helper method on final_arr
   
   
 end
