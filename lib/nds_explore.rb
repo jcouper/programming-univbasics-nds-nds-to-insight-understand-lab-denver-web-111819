@@ -44,6 +44,6 @@ end
   
   
 final_arr.join('\n')
-final_arr
+puts final_arr
 
 end
