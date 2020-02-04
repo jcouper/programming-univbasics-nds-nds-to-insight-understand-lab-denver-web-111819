@@ -23,7 +23,7 @@ def print_first_directors_movie_titles
 final_arr = []
 counter = 0 
 
-  #directors_database[0][:name][:movies][0][:title]
+
   
   
   # initiate a counter
@@ -34,12 +34,12 @@ counter = 0
   #call helper method on final_arr
   
   
-  while directors_database[0][:name][:movies].length > counter do 
-    final_arr.push(directors_database[0][:name][:movies][counter][:title])
-    puts final_arr.push(directors_database[0][:name][:movies][counter][:title]
-    counter += 1 
+#  while directors_database[0][:name][:movies].length > counter do 
+ #   final_arr.push(directors_database[0][:name][:movies][counter][:title])
+#    puts final_arr.push(directors_database[0][:name][:movies][counter][:title]
+#    counter += 1 
 
-end
+#end
   
   
  final_arr
