@@ -35,7 +35,7 @@ counter = 0
   #call helper method on final_arr
   
   
-  while directors_database[0][:movies].length >= counter do 
+  while directors_database[0][:movies].length > counter do 
     final_arr.push(directors_database[0][:movies][counter][:title])
     puts "Hey!!"
     counter += 1 
