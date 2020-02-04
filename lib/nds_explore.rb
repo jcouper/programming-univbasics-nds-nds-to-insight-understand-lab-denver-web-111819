@@ -31,7 +31,7 @@ final_arr = []
   # access item in array
   #look for title key
   #push value in that key to final_arr
-  #call helper method on final_arr
+  #call helper method on 8
   
   
 end
