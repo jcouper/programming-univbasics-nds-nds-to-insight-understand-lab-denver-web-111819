@@ -24,7 +24,7 @@ final_arr = []
 counter = 0 
 
 
-puts directors_database[0][:movies][0][:title]
+
   
   
   # initiate a counter
@@ -35,10 +35,10 @@ puts directors_database[0][:movies][0][:title]
   #call helper method on final_arr
   
   
-#  while directors_database[0][:name][:movies].length > counter do 
- #   final_arr.push(directors_database[0][:name][:movies][counter][:title])
-#    puts final_arr.push(directors_database[0][:name][:movies][counter][:title])
-#    counter += 1 
+  while directors_database[0][:movies].length > counter do 
+    final_arr.push(directors_database[0][:movies][counter][:title])
+    puts "Hey!!"
+    counter += 1 
 
 #end
   
