@@ -43,6 +43,6 @@ counter = 0
 end
   
   
- final_arr
+puts final_arr
 
 end
