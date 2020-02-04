@@ -24,18 +24,6 @@ def print_first_directors_movie_titles
 final_arr = []
 counter = 0 
 
-
-
-  
-  
-  # initiate a counter
-  # while length of the movies array in spelljaskf is larger than counter do the following...
-  # access item in array
-  #look for title key
-  #push value in that key to final_arr
-  #call helper method on final_arr
-  
-  
   while counter < directors_database[0][:movies].length   do 
     final_arr.push(directors_database[0][:movies][counter][:title])
     counter += 1 
@@ -44,6 +32,6 @@ end
   
   
 final_arr.join('\n')
-puts final_arr
+final_arr
 
 end
