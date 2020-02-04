@@ -14,10 +14,10 @@ end
 
 def print_first_directors_movie_titles
 
-def helper(arr)
-  arr.join(\n)
+#def helper(arr)
+#  arr.join(\n)
   
-end
+#end
 
 
 final_arr = []
