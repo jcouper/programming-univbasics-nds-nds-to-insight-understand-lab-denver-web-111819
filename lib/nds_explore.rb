@@ -21,9 +21,9 @@ end
 
 
 final_arr = []
+counter == 0 
 
-  
-  directors_database[0][:name][:movies][0][:title]
+  #directors_database[0][:name][:movies][0][:title]
   
   
   # initiate a counter
@@ -34,6 +34,11 @@ final_arr = []
   #call helper method on 8
   
   
+  while directors_database[0][:name][:movies].length > counter do 
+    push(directors_database[0][:name][:movies][counter])
+
+
+end
   
   
   
