@@ -21,7 +21,7 @@ def print_first_directors_movie_titles
 
 
 final_arr = []
-counter == 0 
+counter = 0 
 
   #directors_database[0][:name][:movies][0][:title]
   
