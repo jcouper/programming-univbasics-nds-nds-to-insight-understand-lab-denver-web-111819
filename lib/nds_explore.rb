@@ -24,7 +24,7 @@ final_arr = []
 counter = 0 
 
 
-puts directors_database
+puts directors_database[0]
   
   
   # initiate a counter
