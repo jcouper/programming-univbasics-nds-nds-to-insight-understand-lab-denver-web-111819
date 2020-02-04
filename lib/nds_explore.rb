@@ -24,7 +24,12 @@ def print_first_directors_movie_titles
   
   directors_database[0][:name][:movies][0][:title]
   
-  # 
+  
+  # initiate a counter
+  # while length of the movies array in spelljaskf is larger than counter do the following...
+  # access item in array
+  #look for title key
+  #print value in that key 
   
   
 end
