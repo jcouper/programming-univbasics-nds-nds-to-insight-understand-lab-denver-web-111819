@@ -13,8 +13,9 @@ end
 
 
 def print_first_directors_movie_titles
-  def new_line(var)
-    /n 
+
+def helper(arr)
+  arr.join(\n)
   
   end
 
