@@ -4,6 +4,10 @@ require 'directors_database'
 
 #pp directors_database
 
+def helper(arr)
+  arr.join(\n)
+  
+end
 
 def pretty_print_nds(nds)
   # Change the code below to pretty print the nds with pp
@@ -14,10 +18,7 @@ end
 
 def print_first_directors_movie_titles
 
-def helper(arr)
-  arr.join(\n)
-  
-end
+
 
 
 final_arr = []
